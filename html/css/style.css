@@ -7,11 +7,13 @@ body {
 }
 
 .chat-header {
-    flex: 0 0 50px;
+    min-height: 50px;
+    flex: 0 0 auto;
 }
 
 .chat-footer {
-    flex: 0 0 200px;
+    min-height: 200px;
+    flex: 0 0 auto;
 }
 
 .main-container {
