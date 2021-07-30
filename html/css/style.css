@@ -1,0 +1,41 @@
+body {
+    margin: 8px;
+}
+.chat-header,
+.chat-footer {
+    border: 1px solid black;
+}
+
+.chat-header {
+    flex: 0 0 50px;
+}
+
+.chat-footer {
+    flex: 0 0 200px;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: calc(100vh - 16px);
+
+}
+
+.chat {
+    display: flex;
+    flex: 1 1 auto;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.user-list {
+    width: 200px;
+    flex: 0 0 200px;
+    overflow-y: scroll;
+}
+
+.user-message {
+    flex: 1;
+    overflow-y: scroll;
+}
